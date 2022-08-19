@@ -1,0 +1,471 @@
+/* GENERAL */
+
+@font-face {
+    font-family: sofia;
+    src: url(../fonts/sofiapro-light.otf);
+}
+
+:root {
+    --sofia-font: sofia;
+    --font-bold : bold;
+    --roboto-font : 'Roboto', sans-serif;
+}
+
+body {
+    background: #EFEFEF 0% 0% no-repeat padding-box!important;
+    font-family: var(--roboto-font)!important;
+}
+
+.text-orange {
+    color: #FF5D54!important;
+}
+
+.nav-item {
+    height: 36px;
+}
+
+.nav-link span {
+    padding-left: 30px;
+}
+
+/* RIGHT BAR */
+
+.rightbar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 184px;
+    z-index: 100;
+    transition: all .25s;
+}
+
+.supbar {
+    position: relative;
+    z-index: 1;
+    height: 204px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 24px 0px 0px 0px;
+}
+
+.titlecart {
+    padding-left: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.02px;
+    line-height: 20px;
+}
+
+.titlecart::after {
+    content: '\f07a';
+    position: absolute;
+    font-family: Fontawesome;
+    left: 20px;
+    top: 35px;
+    font-size: 34px;
+}
+
+.dashedline {
+    height: 1px;
+    width: 80%;
+    border: 1px dashed #FF5D54;
+}
+
+.totalprice {
+    height: 64px;
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+    text-align: center;
+    padding: 8px;
+    color: #404040;
+    line-height: 20px;
+}
+
+.totalprice span {
+    font-size: 16px;
+}
+
+.totalprice span.price {
+    /*font-family: var(--sofia-font);*/
+    font-size: 24px;
+    font-weight: var(--font-bold);
+}
+
+.productsbar {
+    position: fixed;
+    width: 184px;
+    height: 100%;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    /*font-family: var(--sofia-font);*/
+    padding: 20px;
+}
+
+.deleteproduct {
+    position: absolute;
+    right: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.deleteproduct:hover {
+    cursor: pointer;
+}
+
+.infbar {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 184px;
+    height: 188px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 6px #00000029;
+    padding: 16px;
+}
+
+.inactivebtn {
+    background: #D8D8D8 0% 0% no-repeat padding-box!important;
+    box-shadow: 0px 3px 6px #00000029!important;
+    height: 48px;
+    border-radius: 30px!important;
+    color: white!important;
+    text-transform: uppercase;
+    width: 152px;
+    font-weight: bold!important;
+}
+
+.togglenewbar {
+    position: absolute;
+    font-size: 28px;
+    color: white;
+    top: 20px;
+    right: 200px;
+    transition: all .25s;
+}
+
+.togglenewbar:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+/* FINISH RIGHT BAR */
+
+
+/* LEFT BAR */
+
+.leftbar {
+    position: fixed;
+    top: 12px;
+    width: 184px;
+    z-index: 99;
+    transition: all .25s;
+}
+
+.toggleleftbar {
+    transform: translateX(-190px);
+}
+
+.togglerightbar {
+    transform: translateX(190px);
+}
+
+.togglebar {
+    position: absolute;
+    font-size: 28px;
+    color: white;
+    top: 20px;
+    left: 200px;
+    transition: all .25s;
+}
+
+.togglebar:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.logoshop {
+    position: absolute;
+    width: 164px;
+    height: 120px;
+    background: #FF5D54 0% 0% no-repeat padding-box;
+    box-shadow: 6px 3px 6px #00000029;
+    border-radius: 0px 24px 0px 0px;
+}
+
+.logoimg {
+    background-image: url(/TuTiendaenCasa.png);
+    width: 70px;
+    height: 50px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 88px;
+    width: 184px;
+    height: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 6px -3px 6px #00000029;
+    border-radius: 0px 24px 0px 0px;
+}
+
+.logotienda {
+    position: relative;
+    background-image: url(/Imagen\ 1.png);
+    width: 152px;
+    height: 140px;
+    box-shadow: 0px 3px 6px #00000029;
+    margin: 16px;
+}
+
+.logochange {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 40px;
+    height: 40px;
+    background: #FF5D54 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #00000029;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    transition: all .25s;
+}
+
+.logochange:hover {
+    cursor: pointer;
+}
+
+.logochange i {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.nav-item {
+    padding-left: 30px!important;
+    transition: all .25s;
+    font-size: 14px;
+    text-align: left;
+}
+
+.nav-item:hover {
+    transform: translateY(-3px);
+}
+
+.selected {
+    width: 90%;
+    background: #FF5D54 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 0px 16px 16px 0px;
+    color: white!important;
+}
+
+
+
+/* LINKS */
+
+.home::before {
+    content: '\f015';
+    position: absolute;
+    font-family: Fontawesome;
+}
+
+.users::before {
+    content: '\f0c0';
+    position: absolute;
+    font-family: Fontawesome;
+}
+
+.basket::before {
+    content: '\f291';
+    position: absolute;
+    font-family: Fontawesome;
+}
+
+.list::before {
+    content: '\f46d';
+    position: absolute;
+    font-family: Fontawesome;
+}
+
+.cash::before {
+    content: '\f788';
+    position: absolute;
+    font-family: Fontawesome;
+}
+
+.stack::before {
+    content: '\f468';
+    position: absolute;
+    font-family: Fontawesome;
+}
+
+.tag::before {
+    content: '\f02b';
+    position: absolute;
+    font-family: Fontawesome;
+}
+
+.reportes::before {
+    content: '\f1c6';
+    position: absolute;
+    font-family: Fontawesome;
+}
+
+/* TERMINAN LINKS */
+
+.closebutton {
+    height: 48px;
+    background: #FF5D54 0% 0% no-repeat padding-box!important;
+    box-shadow: 0px 3px 6px #00000029!important;
+    border-radius: 30px!important;
+    color: white!important;
+    text-transform: uppercase;
+    margin: 12px;
+    width: 152px;
+    font-weight: bold!important;
+}
+
+/* FINISH LEFT BAR */
+
+#headpage {
+    height: 128px;
+    background: transparent linear-gradient(90deg, #FF885C 0%, #FF5353 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.titlehead {
+    padding-top: 40px;
+    color: white;
+    letter-spacing: 0;
+    /*font-family: var(--sofia-font);*/
+}
+
+.titlehead h1 {
+    font-weight: var(--font-bold);
+}
+
+.titlehead::before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px dashed white;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.filter {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    height: 84px;
+}
+
+.inputfilter {
+    border: 1px solid var(--unnamed-color-ff5d54);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FF5D54;
+    border-radius: 8px;
+    height: 56px;
+    padding-left: 20px;
+    transition: all .25s;
+}
+
+.inputfilter::placeholder {
+    color: #FF5D54;
+}
+
+.inputfilter:focus {
+    outline: none;
+}
+
+.ctnfilter {
+    padding: 10px;
+}
+
+.inputicon {
+    position: absolute;
+    transform: translateX(-25px);
+    right: 0;
+    z-index: 99;
+    top: 35%;
+    color: #FF5D54;
+    transition: all .25s;
+}
+
+.inputicon:hover {
+    cursor: pointer;
+    transform: translateX(-25px);
+
+}
+
+/* PRODUCT */
+
+.product {
+    padding: 8px;
+    height: 256px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.imgproduct {
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.restproduct {
+    background: #FF5D54 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 12px 0px 0px 12px;
+    color: white;
+    width: 33%;
+    text-align: center;
+    padding-top: 15px;
+    height: 50px;
+}
+
+.sumproduct {
+    background: #FF5D54 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 0px 12px 12px 0px;
+    color: white;
+    width: 33%;
+    text-align: center;
+    padding-top: 15px;
+    height: 50px;
+}
+
+.sumproduct:hover, .restproduct:hover {
+    cursor: pointer;
+}
+
+.cantidad {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    color: #404040;
+    width: 33%;
+    text-align: center;
+    border: none;
+    font-weight: var(--font-bold);
+    height: 50px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.cantidad:focus {
+    outline: none;
+}
+
+.cantidad::placeholder {
+    text-align: center;
+    font-weight: var(--font-bold);
+    font-size: 18px;
+}

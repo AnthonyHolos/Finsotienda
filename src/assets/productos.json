@@ -1,0 +1,281 @@
+[
+        {
+            "id": 1,
+            "imagen": "https://beeimg.com/images/b93826174462.png",
+            "nombre" : "Maíz tostado",
+            "precio" : 1200
+        },
+
+        {
+            "id": 2,
+            "imagen": "https://beeimg.com/images/w49394048321.png",
+            "nombre" : "Atún Van camp",
+            "precio" : 4200
+        },
+
+        {
+            "id": 3,
+            "imagen": "https://beeimg.com/images/c49250634654.png",
+            "nombre" : "Arroz Roa",
+            "precio" : 2300
+        },
+
+        {
+            "id": 4,
+            "imagen": "https://beeimg.com/images/s35342222012.png",
+            "nombre" : "Coca Cola",
+            "precio" : 1800
+        },
+
+        {
+            "id": 5,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000164-300x300.jpg",
+            "nombre" : "Queso Mozarella",
+            "precio" : 3600
+        },
+
+        {
+            "id": 6,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000156-300x300.jpg",
+            "nombre" : "Bon Yurt",
+            "precio" : 2800
+        },
+
+        {
+            "id": 7,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000150-300x300.jpg",
+            "nombre" : "Salsa de Queso",
+            "precio" : 2500
+        },
+
+        {
+            "id": 8,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000148-300x300.jpg",
+            "nombre" : "Pan de Yuca",
+            "precio" : 3500
+        },
+
+        {
+            "id": 9,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000144-300x300.jpg",
+            "nombre" : "Yogurt de Fresa",
+            "precio" : 1000
+        },
+
+        {
+            "id": 10,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000134-300x300.jpg",
+            "nombre" : "Galletas Noel",
+            "precio" : 300
+        },
+        
+        {
+            "id": 11,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000131-scaled-1-300x300.jpg",
+            "nombre" : "LavaLoza",
+            "precio" : 1900
+        },
+
+        {
+            "id": 12,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000131-scaled-1-300x300.jpg",
+            "nombre" : "LavaLoza",
+            "precio" : 1900
+        },
+
+        {
+            "id": 13,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000105-300x300.jpg",
+            "nombre" : "Pony Malta",
+            "precio" : 1500
+        },
+
+        {
+            "id": 14,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000096-300x300.jpg",
+            "nombre" : "Galletas Ducales",
+            "precio" : 4500
+        },
+
+        {
+            "id": 15,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000076-300x300.jpg",
+            "nombre" : "Arequipe",
+            "precio" : 1700
+        },
+
+        {
+            "id": 16,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000273-300x300.jpg",
+            "nombre" : "Bolsa Basura",
+            "precio" : 1200
+        },
+
+        {
+            "id": 17,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000271-300x300.jpg",
+            "nombre" : "Leche en Polvo",
+            "precio" : 4200
+        },
+
+        {
+            "id": 18,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000247-300x300.jpg",
+            "nombre" : "Antibacterial",
+            "precio" : 2300
+        },
+
+        {
+            "id": 19,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000229-300x300.jpg",
+            "nombre" : "Aceite",
+            "precio" : 1800
+        },
+
+        {
+            "id": 20,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000224-300x300.jpg",
+            "nombre" : "Tortilla",
+            "precio" : 3600
+        },
+
+        {
+            "id": 21,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000175-300x300.jpg",
+            "nombre" : "Servilletas",
+            "precio" : 2800
+        },
+
+        {
+            "id": 22,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000165-300x300.jpg",
+            "nombre" : "Crachos",
+            "precio" : 2500
+        },
+
+        {
+            "id": 23,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000192-300x300.jpg",
+            "nombre" : "Papel Aluminio",
+            "precio" : 3500
+        },
+
+        {
+            "id": 24,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000209-300x300.jpg",
+            "nombre" : "Seda dental",
+            "precio" : 1000
+        },
+
+        {
+            "id": 25,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000344-300x300.jpg",
+            "nombre" : "Huevos",
+            "precio" : 16000
+        },
+        
+        {
+            "id": 26,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000347-300x300.jpg",
+            "nombre" : "Brilla King",
+            "precio" : 1900
+        },
+
+        {
+            "id": 27,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000335-300x300.jpg",
+            "nombre" : "Margarina",
+            "precio" : 1900
+        },
+
+        {
+            "id": 28,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000332-300x300.jpg",
+            "nombre" : "Salchicha",
+            "precio" : 1500
+        },
+
+        {
+            "id": 29,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000342-300x300.jpg",
+            "nombre" : "Mogolla",
+            "precio" : 4500
+        },
+
+        {
+            "id": 30,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000380-300x300.jpg",
+            "nombre" : "Jugo Naranja",
+            "precio" : 1700
+        },
+
+        {
+            "id": 31,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000744-300x300.jpg",
+            "nombre" : "Galleta",
+            "precio" : 1200
+        },
+
+        {
+            "id": 32,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000724-300x300.jpg",
+            "nombre" : "Escoba",
+            "precio" : 4200
+        },
+
+        {
+            "id": 33,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000723-300x300.jpg",
+            "nombre" : "Trapero",
+            "precio" : 2300
+        },
+
+        {
+            "id": 34,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000707_1-1-300x300.png",
+            "nombre" : "Gomas Trululu",
+            "precio" : 1800
+        },
+
+        {
+            "id": 35,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000700-300x300.jpg",
+            "nombre" : "Crema Corporal",
+            "precio" : 3600
+        },
+
+        {
+            "id": 36,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000802-300x300.jpg",
+            "nombre" : "Cereal Avena",
+            "precio" : 2800
+        },
+
+        {
+            "id": 37,
+            "imagen": "https://d1.com.co/wp-content/uploads/12000810-300x300.jpg",
+            "nombre" : "Cerveza Limón",
+            "precio" : 2500
+        },
+
+        {
+            "id": 38,
+            "imagen": "https://d1.com.co/wp-content/uploads/12001295-300x300.jpg",
+            "nombre" : "Snicker",
+            "precio" : 3500
+        },
+
+        {
+            "id": 39,
+            "imagen": "https://d1.com.co/wp-content/uploads/12001568-300x300.jpg",
+            "nombre" : "Palomitas",
+            "precio" : 1000
+        },
+
+        {
+            "id": 40,
+            "imagen": "https://d1.com.co/wp-content/uploads/12001250-300x300.jpg",
+            "nombre" : "Crema de Leche",
+            "precio" : 3000
+        }
+]
